@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffffff;
+  margin: 6%;
+  padding: 10px;
+  text-align: center;
+}
+button {
+  background-color: rgb(46, 43, 47);
+  color: #ffffff;
+  border: 2px white;
+  margin: 1%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 2vw;
+}
+button:disabled {
+  opacity: 0.7;
+}
+.textAlignLeft {
+  float: left;
+  margin: 7% 15%;
+  text-align: left;
+  border-left: 4px solid rgb(46, 43, 47);
+  padding: 10px;
+}
+strong {
+  font-size: x-large;
+}
+.roundResult {
+  font-weight: 30px;
+  font-size: xx-large;
+}
+.textAlignLeft span {
+  font-weight: bolder;
+  font-size: xx-large;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Rock-Paper-Scissor-Game</title>
+  </head>
+  <body>
+    <div>
+      <h1>Let's play the game 'Rock , Paper & Scissors'</h1>
+      <button id="startBtn" onclick="game()">Start Game</button>
+    </div>
+    <div>
+      <button class="button" id="rock">Rock</button>
+      <button class="button" id="paper">Paper</button>
+      <button class="button" id="scissors">Scissors</button>
+    </div>
+    <div class="roundResult">
+      <p id="roundResult"></p>
+    </div>
+    <div id="visibleResult" style="visibility: hidden">
+      <div class="textAlignLeft">
+        <div><strong>You won :</strong><span id="you"></span></div>
+        <div><strong>Computer won :</strong> <span id="computer"></span></div>
+        <div><strong>Number of ties :</strong> <span id="tie"></span></div>
+        <div><strong>Game winner:</strong> <span id="result"></span></div>
+      </div>
+    </div>
+    <script src="./external.js"></script>
+  </body>
+</html>
